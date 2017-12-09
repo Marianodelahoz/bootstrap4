@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Tablas</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col">
+<!-- 
+				.table-inverse  Nos permite cambiar los colores de la tabla a oscuros
+				.table-striped  Nos permite alternar colores entre cada fila
+                .table-bordered  Nos permite agregarle bordes a la tabla
+                .table-hover     Nos permite agregarle un hover a las filas
+                .table-sm       Nos permite hacer la tabla más pequeña eliminando paddings
+                .table-responsive  Nos permite adaptar nuestra tabla a dispositivos moviles -->
+
+				<table class="table table-bordered table-hover table-inverse">
+                  
+                      <!-- Tambien podemos cambiar el <thead> a oscuro con .thead-inverse -->
+	                  <!-- Otra alternativa es .thead-default -->
+					<thead class="thead-default">
+						<th>Nombre</th>
+						<th>Edad</th>
+						<th>Pais</th>
+					</thead>
+ 
+					<tr>
+						<td>Mariano</td>
+						<td>59</td>
+						<td>España</td>
+					</tr>
+
+                      <!-- .table-active
+                      .table-success
+                      .table-warning
+                      .table-danger
+                      .table-info -->
+
+                    <tr class="bg-info">
+						<td>Carlos</td>
+						<td>21</td>
+						<td>Mexico</td>
+					</tr>
+
+					<tr>
+						<td>Oscar</td>
+						<td>32</td>
+						<td>Francia</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		
+
+	</div>
+
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
