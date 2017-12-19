@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+            <title>
+                Collapse
+            </title>
+            <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" name="viewport">
+                <link href="css/bootstrap.min.css" rel="stylesheet">
+                </link>
+            </meta>
+        </meta>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row mt-3">
+                <div class="col-6">
+                    <p>
+                        <a aria-controls="bloque1" aria-expanded="false" class="btn btn-primary" data-toggle="collapse" href="#bloque1">
+                            Bloque 1
+                        </a>
+                    </p>
+                    <div class="collapse" id="bloque1">
+                        <div class="card card-block">
+                            <div class="card-text">
+                                <h3>
+                                    Titulo
+                                </h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia molestias at, corporis vitae unde aperiam ut?
+                                    Laudantium distinctio omnis, quasi.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <p>
+                        <a aria-controls="bloque2" aria-expanded="false" class="btn btn-primary" data-toggle="collapse" href="#bloque2">
+                            Bloque 2
+                        </a>
+                    </p>
+                    <div class="collapse" id="bloque2">
+                        <div class="card card-block">
+                            <div class="card-text">
+                                <h3>
+                                    Titulo
+                                </h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia molestias at, corporis vitae unde aperiam ut? Laudantium distinctio omnis, quasi.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col">
+                    <div aria-multiselectable="true" id="acordion" role="tablist">
+                        <div class="card">
+                            <div class="card-header" id="heading1" role="tab">
+                                <h5 class="mb-0">
+                                    <a aria-controls="collapse1" aria-expanded="true" data-parent="#acordion" data-toggle="collapse" href="#collapse1">
+                                        Contenido 1
+                                    </a>
+                                </h5>
+                            </div>
+                            <div aria-labelledby="heading1" class="collapse show" id="collapse1" role="tabpanel">
+                                <div class="card-block">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quod, perferendis deserunt accusantium illum nihil voluptates eos aspernatur, possimus repellat pariatur, consectetur dicta nesciunt ullam et quas neque doloribus in?
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="heading1" role="tab">
+                                <h5 class="mb-0">
+                                    <a aria-controls="collapse1" aria-expanded="true" data-parent="#acordion" data-toggle="collapse" href="#collapse2">
+                                        Contenido 2
+                                    </a>
+                                </h5>
+                            </div>
+                            <div aria-labelledby="heading2" class="collapse" id="collapse2" role="tabpanel">
+                                <div class="card-block">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quod, perferendis deserunt accusantium illum nihil voluptates eos aspernatur, possimus repellat pariatur, consectetur dicta nesciunt ullam et quas neque doloribus in?
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="heading3" role="tab">
+                                <h5 class="mb-0">
+                                    <a aria-controls="collapse1" aria-expanded="true" data-parent="#acordion" data-toggle="collapse" href="#collapse3">
+                                        Contenido 3
+                                    </a>
+                                </h5>
+                            </div>
+                            <div aria-labelledby="heading3" class="collapse " id="collapse3" role="tabpanel">
+                                <div class="card-block">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quod, perferendis deserunt accusantium illum nihil voluptates eos aspernatur, possimus repellat pariatur, consectetur dicta nesciunt ullam et quas neque doloribus in?
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/jquery-3.2.1.min.js">
+        </script>
+        <script src="js/bootstrap.min.js">
+        </script>
+    </body>
+</html>
