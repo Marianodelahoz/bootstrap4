@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+            <title>
+                Formularios
+            </title>
+            <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" name="viewport">
+                <link href="../css/bootstrap.min.css" rel="stylesheet">
+                </link>
+            </meta>
+        </meta>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row mt-3">
+                <div class="col">
+                    <form action="">
+                        <div class="form-group">
+                            <label for="nombre">
+                                Nombre
+                            </label>
+                            <input class="form-control" id="nombre" name="nombre" placeholder="Nombre" type="text">
+                            </input>
+                        </div>
+                        <div class="form-group">
+                            <label for="pass">
+                                Contraseña
+                            </label>
+                            <input class="form-control" id="pass" name="pass" placeholder="Contraseña" type="password">
+                            </input>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">
+                                Mensaje
+                            </label>
+                            <textarea class="form-control" id="mensaje" name="mensaje">
+                            </textarea>
+                        </div>
+                        <label for="pais">
+                            Pais
+                        </label>
+                        <div class="form-group">
+                            <select class="form-control" id="pais" name="pais">
+                                <option value="espana">
+                                    España
+                                </option>
+                                <option value="mexico">
+                                    Mexico
+                                </option>
+                                <option value="colombia">
+                                    Colombia
+                                </option>
+                            </select>
+                        </div>
+                        <div class="form-check">
+                            <label class="from-check-label">
+                                <input class="form-check-input" id="hombre" mr-2"="" name="sexo" type="radio">
+                                    Hombre
+                                </input>
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="from-check-label">
+                                <input class="form-check-input" id="mujer" mr-2"="" name="sexo" type="radio">
+                                    Mujer
+                                </input>
+                            </label>
+                        </div>
+                        <div class="form-checbox">
+                            <label class="from-check-label">
+                                <input class="form-check-input" id="terminos" name="terminos" type="checkbox">
+                                    Acepto Terminos y Condiciones
+                                </input>
+                            </label>
+                        </div>
+                        <button class="btn btn-primary">
+                            <submit>
+                                Enviar
+                            </submit>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+<script src="../js/jquery-3.2.1.min.js">
+</script>
+<script src="../js/bootstrap.min.js">
+</script>
